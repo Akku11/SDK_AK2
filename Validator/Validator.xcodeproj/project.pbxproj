@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		82F7C3FD2C18025F00FF7CFA /* Validator.docc in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C3FC2C18025F00FF7CFA /* Validator.docc */; };
 		82F7C4032C18025F00FF7CFA /* Validator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F7C3F82C18025F00FF7CFA /* Validator.framework */; };
-		82F7C4082C18025F00FF7CFA /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C4072C18025F00FF7CFA /* ValidatorTests.swift */; };
 		82F7C4092C18025F00FF7CFA /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F7C3FB2C18025F00FF7CFA /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82F7C4132C1802EA00FF7CFA /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C4122C1802EA00FF7CFA /* EmailValidator.swift */; };
 /* End PBXBuildFile section */
@@ -29,7 +28,6 @@
 		82F7C3FB2C18025F00FF7CFA /* Validator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
 		82F7C3FC2C18025F00FF7CFA /* Validator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Validator.docc; sourceTree = "<group>"; };
 		82F7C4022C18025F00FF7CFA /* ValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		82F7C4072C18025F00FF7CFA /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
 		82F7C4122C1802EA00FF7CFA /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				82F7C3FA2C18025F00FF7CFA /* Validator */,
-				82F7C4062C18025F00FF7CFA /* ValidatorTests */,
 				82F7C3F92C18025F00FF7CFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,14 +75,6 @@
 				82F7C4122C1802EA00FF7CFA /* EmailValidator.swift */,
 			);
 			path = Validator;
-			sourceTree = "<group>";
-		};
-		82F7C4062C18025F00FF7CFA /* ValidatorTests */ = {
-			isa = PBXGroup;
-			children = (
-				82F7C4072C18025F00FF7CFA /* ValidatorTests.swift */,
-			);
-			path = ValidatorTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +195,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82F7C4082C18025F00FF7CFA /* ValidatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
