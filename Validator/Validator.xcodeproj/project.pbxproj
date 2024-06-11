@@ -8,26 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		82F7C3FD2C18025F00FF7CFA /* Validator.docc in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C3FC2C18025F00FF7CFA /* Validator.docc */; };
-		82F7C4032C18025F00FF7CFA /* Validator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F7C3F82C18025F00FF7CFA /* Validator.framework */; };
 		82F7C4092C18025F00FF7CFA /* Validator.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F7C3FB2C18025F00FF7CFA /* Validator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		82F7C4132C1802EA00FF7CFA /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F7C4122C1802EA00FF7CFA /* EmailValidator.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		82F7C4042C18025F00FF7CFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82F7C3EF2C18025F00FF7CFA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82F7C3F72C18025F00FF7CFA;
-			remoteInfo = Validator;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		82F7C3F82C18025F00FF7CFA /* Validator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F7C3FB2C18025F00FF7CFA /* Validator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validator.h; sourceTree = "<group>"; };
 		82F7C3FC2C18025F00FF7CFA /* Validator.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Validator.docc; sourceTree = "<group>"; };
-		82F7C4022C18025F00FF7CFA /* ValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F7C4122C1802EA00FF7CFA /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -36,14 +24,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82F7C3FF2C18025F00FF7CFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82F7C4032C18025F00FF7CFA /* Validator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +42,6 @@
 			isa = PBXGroup;
 			children = (
 				82F7C3F82C18025F00FF7CFA /* Validator.framework */,
-				82F7C4022C18025F00FF7CFA /* ValidatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,24 +88,6 @@
 			productReference = 82F7C3F82C18025F00FF7CFA /* Validator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		82F7C4012C18025F00FF7CFA /* ValidatorTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82F7C40F2C18025F00FF7CFA /* Build configuration list for PBXNativeTarget "ValidatorTests" */;
-			buildPhases = (
-				82F7C3FE2C18025F00FF7CFA /* Sources */,
-				82F7C3FF2C18025F00FF7CFA /* Frameworks */,
-				82F7C4002C18025F00FF7CFA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82F7C4052C18025F00FF7CFA /* PBXTargetDependency */,
-			);
-			name = ValidatorTests;
-			productName = ValidatorTests;
-			productReference = 82F7C4022C18025F00FF7CFA /* ValidatorTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -138,9 +99,6 @@
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					82F7C3F72C18025F00FF7CFA = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					82F7C4012C18025F00FF7CFA = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
@@ -159,20 +117,12 @@
 			projectRoot = "";
 			targets = (
 				82F7C3F72C18025F00FF7CFA /* Validator */,
-				82F7C4012C18025F00FF7CFA /* ValidatorTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		82F7C3F62C18025F00FF7CFA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82F7C4002C18025F00FF7CFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -191,22 +141,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		82F7C3FE2C18025F00FF7CFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		82F7C4052C18025F00FF7CFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82F7C3F72C18025F00FF7CFA /* Validator */;
-			targetProxy = 82F7C4042C18025F00FF7CFA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		82F7C40A2C18025F00FF7CFA /* Debug */ = {
@@ -408,42 +343,6 @@
 			};
 			name = Release;
 		};
-		82F7C4102C18025F00FF7CFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosApp.ValidatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		82F7C4112C18025F00FF7CFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = orgIdentifier.iosApp.ValidatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -461,15 +360,6 @@
 			buildConfigurations = (
 				82F7C40D2C18025F00FF7CFA /* Debug */,
 				82F7C40E2C18025F00FF7CFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82F7C40F2C18025F00FF7CFA /* Build configuration list for PBXNativeTarget "ValidatorTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82F7C4102C18025F00FF7CFA /* Debug */,
-				82F7C4112C18025F00FF7CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
